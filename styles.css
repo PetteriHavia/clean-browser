@@ -73,7 +73,8 @@ body {
   width: 100%;
   background-color: var(--white);
   display: flex;
-  padding: 0.2rem;
+  border: 5px solid;
+  border-color: var(--white);
 }
 
 .search-bar input[type="text"] {
@@ -81,7 +82,7 @@ body {
   flex: 1;
   border-style: none;
   outline: none;
-  padding: 0.5rem 1rem;
+  padding: 0.3rem 0.5rem;
   font-size: 1rem;
   font-family: var(--font-poppins);
 }
